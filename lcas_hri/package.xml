@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package>
+  <name>lcas_hri</name>
+  <version>0.0.2</version>
+  <description>The lcas_hri metapackage</description>
+
+  <maintainer email="cdondrup@lincoln.ac.uk">Christian Dondrup</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/LCAS/ros_systems</url> 
+
+  <author email="cdondrup@lincoln.ac.uk">Christian Dondrup</author> 
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <!--Mongo DB-->
+  <run_depend>mongodb_store</run_depend>
+  <run_depend>mongodb_log</run_depend>
+  <run_depend>mongodb_store_msgs</run_depend>
+  <run_depend>mongodb</run_depend>
+  
+  <!--Morse-->
+  <run_depend>strands_morse</run_depend>
+  
+  <!--Scitos-->
+  <run_depend>scitos_common</run_depend>
+  <run_depend>scitos_drivers</run_depend>
+  <run_depend>scitos_description</run_depend>
+  <run_depend>scitos_msgs</run_depend>
+  <run_depend>scitos_docking</run_depend>
+  <run_depend>scitos_ptu</run_depend>
+  <run_depend>scitos_cmd_vel_mux</run_depend>
+  <run_depend>scitos_teleop</run_depend>
+
+  <!--People Perception-->
+  <run_depend>strands_perception_people</run_depend>
+
+  <export>
+    <metapackage/> 
+  </export>
+</package>
