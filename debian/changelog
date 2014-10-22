@@ -1,0 +1,16 @@
+ros-hydro-lcas-hri (0.0.2-0precise) precise; urgency=high
+
+  * Fixing mongodb dependencies
+  * Contributors: Christian Dondrup
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Tue, 21 Oct 2014 23:00:00 -0000
+
+ros-hydro-lcas-hri (0.0.1-0precise) precise; urgency=high
+
+  * First version metapackage for project students.
+    See #1 <https://github.com/LCAS/ros_systems/issues/1>
+  * Contributors: Christian Dondrup
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Tue, 21 Oct 2014 23:00:00 -0000
+
+
